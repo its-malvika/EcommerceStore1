@@ -13,25 +13,25 @@
 </head>
 <body>
     <!-- header of the page -->
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="navbar">
             <div class="logo">
                 <!-- logo of website  -->
-                <img  src="images/logo.png" width="180px"> 
+                <img src="images/logo.png" width="180px" alt="RedStore Logo"> 
             </div>
-            <nav>
+            <nav aria-label="Main Navigation">
                 <!-- navbar  -->
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#account">Account</a></li>
                 </ul>
             </nav>
             <!-- cart logo image on navbar  -->
-            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/cart.png" width="30px" height="30px" alt="Shopping Cart">
             </div>
             <div class="row">
                 <!-- heading -->
@@ -42,36 +42,35 @@
                         Consistent <br> hardwork gains success. 
                         Greatenss will come.
                     </p>
-                    <!-- <a href="" class="btn">Explore Now &#8594;</a> -->
-                    <button class="btn" ><a href="">Explore Now &#8594</a></button>
+                    <a href="#products" class="btn">Explore Now &#8594;</a>
                 </div>
                 <div class="col-2">
-                    <img src="images/image1.png" alt="">
+                    <img src="images/image1.png" alt="Sports Workout Gear">
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- featured catagoriez -->
-     <div class="categories">
+     <section class="categories" aria-label="Featured Categories">
         <div class="small-container">
             <div class="row">
-            <div class="col-3"><img src="images/category-1.jpg" alt=""></div>
-            <div class="col-3"><img src="images/category-2.jpg" alt=""></div>
-            <div class="col-3"><img src="images/category-3.jpg" alt=""></div>
-            <!-- <div class="col-3"><img src="images/category-1.jpg" alt=""></div> -->
+            <div class="col-3"><img src="images/category-1.jpg" alt="Category 1 - Clothing"></div>
+            <div class="col-3"><img src="images/category-2.jpg" alt="Category 2 - Shoes"></div>
+            <div class="col-3"><img src="images/category-3.jpg" alt="Category 3 - Accessories"></div>
             </div>
         </div>
-     </div>
+     </section>
      <!-- fratured products  -->
-      <div class="small-container">
+      <section class="products-section" aria-label="Featured Products">
+        <div class="small-container">
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-                <img src="images/product-1.jpg" alt="">
+                <img src="images/product-1.jpg" alt="Printed Red T-shirt">
                 <h4>Printed T-shirt</h4>
                 <p>Red Tshirt</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="4 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -81,10 +80,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-2.jpg" alt="">
+                <img src="images/product-2.jpg" alt="HRX Black Shoes">
                 <h4>HRX Black</h4>
                 <p>Black Shoes</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="3.5 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -94,10 +93,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-3.jpg" alt="">
+                <img src="images/product-3.jpg" alt="US Polo Grey Lower">
                 <h4>US Polo</h4>
                 <p>Grey Lower</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="4 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -107,10 +106,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-4.jpg" alt="">
+                <img src="images/product-4.jpg" alt="Plain Dark Polo T-Shirt">
                 <h4>Plain T-shirt</h4>
-                polo T-Shirt Dark
-                <div class="ratings">
+                <p>Polo T-Shirt Dark</p>
+                <div class="ratings" aria-label="4.5 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -119,15 +118,14 @@
                 </div>
                 <p>$50.00</p>
             </div>
-            <!-- latest products  -->
         </div>
         <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
-                <img src="images/product-5.jpg" alt="">
+                <img src="images/product-5.jpg" alt="Printed Red T-shirt">
                 <h4>Printed T-shirt</h4>
                 <p>Red Tshirt</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="4 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -137,10 +135,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-6.jpg" alt="">
+                <img src="images/product-6.jpg" alt="HRX Black Shoes">
                 <h4>HRX Black</h4>
                 <p>Black Shoes</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="3.5 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -150,10 +148,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-7.jpg" alt="">
+                <img src="images/product-7.jpg" alt="US Polo Grey Lower">
                 <h4>US Polo</h4>
                 <p>Grey Lower</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="4 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -163,10 +161,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-8.jpg" alt="">
+                <img src="images/product-8.jpg" alt="Plain Dark Polo T-Shirt">
                 <h4>Plain T-shirt</h4>
-                polo T-Shirt Dark
-                <div class="ratings">
+                <p>Polo T-Shirt Dark</p>
+                <div class="ratings" aria-label="4.5 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -176,10 +174,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-9.jpg" alt="">
+                <img src="images/product-9.jpg" alt="Printed Red T-shirt">
                 <h4>Printed T-shirt</h4>
                 <p>Red Tshirt</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="4 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -189,10 +187,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-10.jpg" alt="">
+                <img src="images/product-10.jpg" alt="HRX Black Shoes">
                 <h4>HRX Black</h4>
                 <p>Black Shoes</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="3.5 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -202,10 +200,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-11.jpg" alt="">
+                <img src="images/product-11.jpg" alt="US Polo Grey Lower">
                 <h4>US Polo</h4>
                 <p>Grey Lower</p>
-                <div class="ratings">
+                <div class="ratings" aria-label="4 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -215,10 +213,10 @@
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-12.jpg" alt="">
+                <img src="images/product-12.jpg" alt="Plain Dark Polo T-Shirt">
                 <h4>Plain T-shirt</h4>
-                polo T-Shirt Dark
-                <div class="ratings">
+                <p>Polo T-Shirt Dark</p>
+                <div class="ratings" aria-label="4.5 out of 5 stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -228,34 +226,35 @@
                 <p>$50.00</p>
             </div>
         </div>
-      </div>
+        </div>
+      </section>
 
-      <!-- offer(smart band) -->
-       <div class="offer">
+       <!-- offer(smart band) -->
+       <section class="offer" aria-label="Exclusive Offer">
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
-                    <img src="images/exclusive.png" class="offer-img">
+                    <img src="images/exclusive.png" class="offer-img" alt="Exclusive Smart Band 4">
                 </div>
                 <div class="col-2">
                     <p>Exclusively Available on RedStore</p>
-                    <h1 >Smart Band 4</h1>
+                    <h1>Smart Band 4</h1>
                     <small>
                         The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
                         AMOLED color full-touch display, improved heart rate monitoring, 
                         up to 20 days battery life, swim tracking with 5ATM water resistance, 
                         music and call controls, and customizable watch faces.
                     </small><br>
-                    <button class="btn" ><a href="">Buy Now &#8594</a></button>
+                    <a href="#products" class="btn">Buy Now &#8594;</a>
                 </div>
             </div>
         </div>
-       </div>
+       </section>
 
 
 
        <!-- testimonials (reviews) -->
-        <div class="testimonial">
+        <section class="testimonial" aria-label="Customer Reviews">
             <div class="small-container">
                 <div class="row">
                     <div class="col-3">
@@ -265,14 +264,14 @@
                             fuga rem porro mollitia tempora fugiat aliquid blanditiis 
                             adipisci vel quis totam quam odit voluptatem? Amet.
                         </p>
-                        <div class="ratings">
+                        <div class="ratings" aria-label="4.5 out of 5 stars">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-half"></i> 
                         </div>
-                        <img src="images/user-1.png" alt="">
+                        <img src="images/user-1.png" alt="Lucy Farendez - Customer">
                         <h3>Lucy Farendez</h3>
                     </div>
                     <div class="col-3">
@@ -282,14 +281,14 @@
                             fuga rem porro mollitia tempora fugiat aliquid blanditiis 
                             adipisci vel quis totam quam odit voluptatem? Amet.
                         </p>
-                        <div class="ratings">
+                        <div class="ratings" aria-label="4.5 out of 5 stars">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-half"></i> 
                         </div>
-                        <img src="images/user-2.png" alt="">
+                        <img src="images/user-2.png" alt="Peter Sans - Customer">
                         <h3>Peter Sans</h3>
                     </div>
                     <div class="col-3">
@@ -299,18 +298,65 @@
                             fuga rem porro mollitia tempora fugiat aliquid blanditiis 
                             adipisci vel quis totam quam odit voluptatem? Amet.
                         </p>
-                        <div class="ratings">
+                        <div class="ratings" aria-label="4.5 out of 5 stars">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-half"></i> 
                         </div>
-                        <img src="images/user-3.png" alt="">
+                        <img src="images/user-3.png" alt="Michel Paul - Customer">
                         <h3>Michel Paul</h3>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h3>About RedStore</h3>
+                        <p>
+                            RedStore is your go-to destination for premium fitness and lifestyle products.
+                            We offer high-quality gear for athletes and fitness enthusiasts worldwide.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to get special offers and updates!</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required aria-label="Email for newsletter">
+                            <button type="submit" class="btn-small">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#twitter" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer-divider">
+                <div class="footer-bottom">
+                    <p>&copy; 2024 RedStore. All rights reserved. | Made with <i class="bi bi-heart-fill footer-heart"></i> by Aryan Gupta</p>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
