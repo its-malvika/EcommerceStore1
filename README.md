@@ -109,4 +109,4 @@ The primary color is `#ff523b`. Search and replace this in `style.css` to change
 
 ---
 
-Made with ❤️ - Happy coding! 🚀
+Made with ❤️ - Happy coding! 
